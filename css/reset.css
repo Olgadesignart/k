@@ -1,0 +1,130 @@
+
+/* staatliches-regular - latin */
+@font-face {
+  font-family: 'Staatliches';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/staatliches-v11-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/staatliches-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* warnes-regular - latin */
+@font-face {
+  font-family: 'Warnes';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/warnes-v22-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/warnes-v22-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* gugi-regular - latin */
+@font-face {
+  font-family: 'Gugi';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/gugi-v13-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/gugi-v13-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* abel-regular - latin */
+@font-face {
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/abel-v18-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/abel-v18-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+html{
+  box-sizing: border-box;
+}
+  *, *::before, *::after{
+    box-sizing: inherit;
+  }
+
+.body{
+  font-family: 'Gugi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  color: #89E980;
+}
+.wrapper{
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+.header{
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header_logo{
+  
+}
+.header_wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 20;
+}
+.header_list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header_item{
+  margin-right: 80px;
+}
+
+.header_item:last-child{
+  margin-right: 0;
+}
+.header_item:last-child{
+margin-left: 172px;
+}
+
+.header_link{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 55px;
+  color: #89E980;
+  text-decoration: none;
+}
+.header_link:hover, .header_link:focus, .header_link:active{
+  color: aqua;
+}
+
+.intro{
+  height: 100vh;
+  background: url(../imgk/Slide\ 16_9\ -\ 3.jpg) no-repeat center;
+  background-size: cover;
+  padding-top: 180px; 
+}
+.intro_title{
+  max-width: 908px;
+  font-family: 'Staatliches';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 115px;
+  line-height: 96%;
+  color: rgba(255, 255, 255, 0.15);
+  margin-bottom: 22px;
+}
+
+.intro_subtitle{
+  max-width: 546px;
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+
+  color: #89E980;
+
+}
